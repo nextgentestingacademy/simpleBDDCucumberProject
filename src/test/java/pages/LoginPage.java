@@ -31,7 +31,5 @@ public class LoginPage extends BasePage{
 	public boolean enterUsername(String userid) {
 		enterText(edtUsername,userid);
 		return true;
-	}
-	
-	
+	}	
 }
