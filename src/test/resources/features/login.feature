@@ -22,6 +22,6 @@ Feature: Login functionality
 	|Admin|admin|
 	|Admin123|Admin123|
 	||admin123|
-	|Admin||
+	|Admin|admin123|
     
     

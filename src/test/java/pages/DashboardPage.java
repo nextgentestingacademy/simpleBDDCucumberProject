@@ -20,12 +20,26 @@ public class DashboardPage extends BasePage{
 	}
 
 	public boolean assignLeaveIsDisplayed() {
-		waitForVisible(btnAssignLeave);
-		return true;
+		return waitForVisible(btnAssignLeave);
 	}
 	
 	public boolean leaveListIsDisplayed() {
-		waitForVisible(btnLeaveList);
-		return true;
+		return waitForVisible(btnLeaveList);
+	}
+	
+	public boolean timesheetsIsDisplayed() {
+		return waitForVisible(btnTimesheets);
+	}
+	
+	public boolean applyLeaveIsDisplayed() {
+		return waitForVisible(btnApplyLeave);
+	}
+	
+	public boolean myLeaveIsDisplayed() {
+		return waitForVisible(btnMyLeave);
+	}
+	
+	public boolean myTimesheetIsDisplayed() {
+		return waitForVisible(btnMyTimesheet);
 	}
 }
